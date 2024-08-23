@@ -1,0 +1,88 @@
+/* happy-birthday.css */
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* light gray background */
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #333; /* dark gray background */
+    color: #fff; /* white text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  /* Birthday Message Styles */
+  
+  .birthday-message {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .birthday-message h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .birthday-message p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Cake Image Styles */
+  
+  .cake-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  /* Button Styles */
+  
+  .button {
+    background-color: #4CAF50; /* green background */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41; /* darker green background on hover */
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
